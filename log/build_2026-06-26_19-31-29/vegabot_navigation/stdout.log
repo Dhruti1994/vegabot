@@ -1,0 +1,74 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+-- Found rclpy: 3.3.21 (/opt/ros/humble/share/rclpy/cmake)
+-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (3.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/spkmak/vegabot_ws/build/vegabot_navigation
+Built target ament_cmake_python_copy_vegabot_navigation
+running egg_info
+creating vegabot_navigation.egg-info
+writing vegabot_navigation.egg-info/PKG-INFO
+writing dependency_links to vegabot_navigation.egg-info/dependency_links.txt
+writing top-level names to vegabot_navigation.egg-info/top_level.txt
+writing manifest file 'vegabot_navigation.egg-info/SOURCES.txt'
+reading manifest file 'vegabot_navigation.egg-info/SOURCES.txt'
+writing manifest file 'vegabot_navigation.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_vegabot_navigation_egg
+-- Install configuration: ""
+-- Installing: /home/spkmak/vegabot_ws/install/vegabot_navigation/share/vegabot_navigation/environment/pythonpath.sh
+-- Installing: /home/spkmak/vegabot_ws/install/vegabot_navigation/share/vegabot_navigation/environment/pythonpath.dsv
+-- Installing: /home/spkmak/vegabot_ws/install/vegabot_navigation/local/lib/python3.10/dist-packages/vegabot_navigation-0.0.0-py3.10.egg-info
+-- Installing: /home/spkmak/vegabot_ws/install/vegabot_navigation/local/lib/python3.10/dist-packages/vegabot_navigation-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/spkmak/vegabot_ws/install/vegabot_navigation/local/lib/python3.10/dist-packages/vegabot_navigation-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/spkmak/vegabot_ws/install/vegabot_navigation/local/lib/python3.10/dist-packages/vegabot_navigation-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/spkmak/vegabot_ws/install/vegabot_navigation/local/lib/python3.10/dist-packages/vegabot_navigation-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/spkmak/vegabot_ws/install/vegabot_navigation/local/lib/python3.10/dist-packages/vegabot_navigation
+-- Installing: /home/spkmak/vegabot_ws/install/vegabot_navigation/local/lib/python3.10/dist-packages/vegabot_navigation/waypoint_following.py
+-- Installing: /home/spkmak/vegabot_ws/install/vegabot_navigation/local/lib/python3.10/dist-packages/vegabot_navigation/__init__.py
+Listing '/home/spkmak/vegabot_ws/install/vegabot_navigation/local/lib/python3.10/dist-packages/vegabot_navigation'...
+Compiling '/home/spkmak/vegabot_ws/install/vegabot_navigation/local/lib/python3.10/dist-packages/vegabot_navigation/__init__.py'...
+Compiling '/home/spkmak/vegabot_ws/install/vegabot_navigation/local/lib/python3.10/dist-packages/vegabot_navigation/waypoint_following.py'...
+-- Installing: /home/spkmak/vegabot_ws/install/vegabot_navigation/share/vegabot_navigation/launch
+-- Installing: /home/spkmak/vegabot_ws/install/vegabot_navigation/share/vegabot_navigation/launch/navigation.launch.py
+-- Installing: /home/spkmak/vegabot_ws/install/vegabot_navigation/share/vegabot_navigation/config
+-- Installing: /home/spkmak/vegabot_ws/install/vegabot_navigation/share/vegabot_navigation/config/smoother_server.yaml
+-- Installing: /home/spkmak/vegabot_ws/install/vegabot_navigation/share/vegabot_navigation/config/planner_server.yaml
+-- Installing: /home/spkmak/vegabot_ws/install/vegabot_navigation/share/vegabot_navigation/config/behavior_server.yaml
+-- Installing: /home/spkmak/vegabot_ws/install/vegabot_navigation/share/vegabot_navigation/config/bt_navigator.yaml
+-- Installing: /home/spkmak/vegabot_ws/install/vegabot_navigation/share/vegabot_navigation/config/waypoint_follower.yaml
+-- Installing: /home/spkmak/vegabot_ws/install/vegabot_navigation/share/vegabot_navigation/config/controller_server.yaml
+-- Installing: /home/spkmak/vegabot_ws/install/vegabot_navigation/share/vegabot_navigation/behavior_tree
+-- Installing: /home/spkmak/vegabot_ws/install/vegabot_navigation/share/vegabot_navigation/behavior_tree/simple_navigation_w_replanning_and_recovery.xml
+-- Installing: /home/spkmak/vegabot_ws/install/vegabot_navigation/lib/vegabot_navigation/waypoint_following.py
+-- Installing: /home/spkmak/vegabot_ws/install/vegabot_navigation/share/ament_index/resource_index/package_run_dependencies/vegabot_navigation
+-- Installing: /home/spkmak/vegabot_ws/install/vegabot_navigation/share/ament_index/resource_index/parent_prefix_path/vegabot_navigation
+-- Installing: /home/spkmak/vegabot_ws/install/vegabot_navigation/share/vegabot_navigation/environment/ament_prefix_path.sh
+-- Installing: /home/spkmak/vegabot_ws/install/vegabot_navigation/share/vegabot_navigation/environment/ament_prefix_path.dsv
+-- Installing: /home/spkmak/vegabot_ws/install/vegabot_navigation/share/vegabot_navigation/environment/path.sh
+-- Installing: /home/spkmak/vegabot_ws/install/vegabot_navigation/share/vegabot_navigation/environment/path.dsv
+-- Installing: /home/spkmak/vegabot_ws/install/vegabot_navigation/share/vegabot_navigation/local_setup.bash
+-- Installing: /home/spkmak/vegabot_ws/install/vegabot_navigation/share/vegabot_navigation/local_setup.sh
+-- Installing: /home/spkmak/vegabot_ws/install/vegabot_navigation/share/vegabot_navigation/local_setup.zsh
+-- Installing: /home/spkmak/vegabot_ws/install/vegabot_navigation/share/vegabot_navigation/local_setup.dsv
+-- Installing: /home/spkmak/vegabot_ws/install/vegabot_navigation/share/vegabot_navigation/package.dsv
+-- Installing: /home/spkmak/vegabot_ws/install/vegabot_navigation/share/ament_index/resource_index/packages/vegabot_navigation
+-- Installing: /home/spkmak/vegabot_ws/install/vegabot_navigation/share/vegabot_navigation/cmake/vegabot_navigationConfig.cmake
+-- Installing: /home/spkmak/vegabot_ws/install/vegabot_navigation/share/vegabot_navigation/cmake/vegabot_navigationConfig-version.cmake
+-- Installing: /home/spkmak/vegabot_ws/install/vegabot_navigation/share/vegabot_navigation/package.xml

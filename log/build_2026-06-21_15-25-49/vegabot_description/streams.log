@@ -1,0 +1,102 @@
+[0.029s] Invoking command in '/home/spkmak/vegabot_ws/build/vegabot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/spkmak/ros2_ws/install/so_arm_100_bringup:/home/spkmak/ros2_ws/install/mechabot_scripts:/opt/ros/humble /home/spkmak/.local/bin/cmake --build /home/spkmak/vegabot_ws/build/vegabot_description -- -j6 -l6
+[0.206s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.692s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.929s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.947s] -- Added test 'lint_cmake' to check CMake code style
+[0.957s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.046s] -- Added test 'xmllint' to check XML markup files
+[1.048s] -- Configuring done (0.9s)
+[1.056s] -- Generating done (0.0s)
+[1.060s] -- Build files have been written to: /home/spkmak/vegabot_ws/build/vegabot_description
+[1.078s] Invoked command in '/home/spkmak/vegabot_ws/build/vegabot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/spkmak/ros2_ws/install/so_arm_100_bringup:/home/spkmak/ros2_ws/install/mechabot_scripts:/opt/ros/humble /home/spkmak/.local/bin/cmake --build /home/spkmak/vegabot_ws/build/vegabot_description -- -j6 -l6
+[1.080s] Invoking command in '/home/spkmak/vegabot_ws/build/vegabot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/spkmak/ros2_ws/install/so_arm_100_bringup:/home/spkmak/ros2_ws/install/mechabot_scripts:/opt/ros/humble /home/spkmak/.local/bin/cmake --install /home/spkmak/vegabot_ws/build/vegabot_description
+[1.223s] -- Install configuration: ""
+[1.224s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/urdf
+[1.224s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/urdf/bot.urdf
+[1.224s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/urdf/vegabot_gazebo.xacro
+[1.224s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/urdf/vegabot_base.xacro
+[1.225s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/urdf/bot_wheel.urdf
+[1.225s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/urdf/vegabot_sensors.xacro
+[1.225s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/urdf/vegabot.urdf.xacro
+[1.225s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/urdf/template.urdf
+[1.225s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/urdf/vegabot_ros2control.xacro
+[1.226s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/rviz
+[1.226s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/rviz/display.rviz
+[1.226s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/launch
+[1.226s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/launch/display.launch.py
+[1.226s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/launch/gazebo.launch.py
+[1.226s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/worlds
+[1.226s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/worlds/empty.world
+[1.226s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/worlds/small_house.world
+[1.227s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/worlds/qr_maze.world
+[1.227s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/photos
+[1.227s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/photos/PortraitB_03.jpg
+[1.227s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/photos/PortraitC_01.jpg
+[1.227s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/photos/DeskPortraitC_01.jpg
+[1.227s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/photos/DeskPortraitC_02.jpg
+[1.227s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/photos/DeskPortraitD_02.jpg
+[1.227s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/photos/PortraitA_01.jpg
+[1.228s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/photos/PortraitE_01.jpg
+[1.228s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/photos/PortraitB_02.jpg
+[1.228s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/photos/DeskPortraitA_01.jpg
+[1.228s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/photos/DeskPortraitB_01.jpg
+[1.228s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/photos/DeskPortraitD_01.jpg
+[1.228s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/photos/DeskPortraitA_02.jpg
+[1.228s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/photos/PortraitE_02.jpg
+[1.228s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/photos/DeskPortraitB_02.jpg
+[1.228s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/photos/PortraitA_02.jpg
+[1.228s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/photos/PortraitB_01.jpg
+[1.229s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/photos/PortraitD_01.jpg
+[1.229s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/photos/DeskPortraitD_03.jpg
+[1.229s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/photos/DeskPortraitD_04.jpg
+[1.229s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/photos/PortraitD_02.jpg
+[1.229s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/meshes
+[1.229s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/meshes/vegabot_base_link.stl
+[1.230s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/meshes/vegabot_lidar.stl
+[1.232s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/meshes/vegabot_right_wheel.stl
+[1.233s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/meshes/rear_left_castor.stl
+[1.234s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/meshes/front_left_castor.stl
+[1.234s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/meshes/vegabot_camera.stl
+[1.235s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/meshes/vegabot_left_wheel.stl
+[1.235s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/meshes/rear_right_castor.stl
+[1.236s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/meshes/vegabot_toplid.stl
+[1.236s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/meshes/vegabot_imu.stl
+[1.237s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/meshes/vegabot_dock.stl
+[1.237s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/meshes/front_right_castor.stl
+[1.238s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/photos
+[1.238s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/photos/PortraitB_03.jpg
+[1.238s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/photos/PortraitC_01.jpg
+[1.239s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/photos/DeskPortraitC_01.jpg
+[1.239s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/photos/DeskPortraitC_02.jpg
+[1.240s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/photos/DeskPortraitD_02.jpg
+[1.240s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/photos/PortraitA_01.jpg
+[1.240s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/photos/PortraitE_01.jpg
+[1.241s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/photos/PortraitB_02.jpg
+[1.241s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/photos/DeskPortraitA_01.jpg
+[1.241s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/photos/DeskPortraitB_01.jpg
+[1.241s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/photos/DeskPortraitD_01.jpg
+[1.242s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/photos/DeskPortraitA_02.jpg
+[1.242s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/photos/PortraitE_02.jpg
+[1.242s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/photos/DeskPortraitB_02.jpg
+[1.244s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/photos/PortraitA_02.jpg
+[1.245s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/photos/PortraitB_01.jpg
+[1.246s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/photos/PortraitD_01.jpg
+[1.246s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/photos/DeskPortraitD_03.jpg
+[1.247s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/photos/DeskPortraitD_04.jpg
+[1.247s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/photos/PortraitD_02.jpg
+[1.248s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/ament_index/resource_index/package_run_dependencies/vegabot_description
+[1.248s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/ament_index/resource_index/parent_prefix_path/vegabot_description
+[1.249s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/environment/ament_prefix_path.sh
+[1.249s] -- Installing: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/environment/ament_prefix_path.dsv
+[1.250s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/environment/path.sh
+[1.250s] -- Installing: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/environment/path.dsv
+[1.251s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/local_setup.bash
+[1.252s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/local_setup.sh
+[1.252s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/local_setup.zsh
+[1.253s] -- Installing: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/local_setup.dsv
+[1.254s] -- Installing: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/package.dsv
+[1.254s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/ament_index/resource_index/packages/vegabot_description
+[1.257s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/cmake/vegabot_descriptionConfig.cmake
+[1.259s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/cmake/vegabot_descriptionConfig-version.cmake
+[1.260s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/package.xml
+[1.261s] Invoked command in '/home/spkmak/vegabot_ws/build/vegabot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/spkmak/ros2_ws/install/so_arm_100_bringup:/home/spkmak/ros2_ws/install/mechabot_scripts:/opt/ros/humble /home/spkmak/.local/bin/cmake --install /home/spkmak/vegabot_ws/build/vegabot_description

@@ -1,0 +1,4 @@
+source;share/mechabot_bringup/local_setup.bash
+source;share/mechabot_bringup/local_setup.dsv
+source;share/mechabot_bringup/local_setup.sh
+source;share/mechabot_bringup/local_setup.zsh

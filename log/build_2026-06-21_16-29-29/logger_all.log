@@ -1,0 +1,220 @@
+[0.561s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.561s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cargo_args=None, clean_build=False, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, lookup_in_workspace=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff9607f1c0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff962b8d60>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff962b8d60>>)
+[0.863s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.863s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.863s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.864s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.864s] Level 1:colcon.colcon_core.package_discovery:discover_packages(cargo_workspace) check parameters
+[0.864s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.864s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.864s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/spkmak/vegabot_ws'
+[0.865s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.865s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.865s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cargo_workspace']
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cargo_workspace'
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.931s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cargo', 'cmake', 'python']
+[0.931s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cargo'
+[0.931s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.931s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.931s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.932s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.932s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.932s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.933s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.933s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.933s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.933s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.934s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.934s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.934s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.934s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cargo_workspace']
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cargo_workspace'
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cargo', 'cmake', 'python']
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cargo'
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/vegabot_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/vegabot_controller) by extension 'ignore'
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/vegabot_controller) by extension 'ignore_ament_install'
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/vegabot_controller) by extensions ['cargo_workspace']
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/vegabot_controller) by extension 'cargo_workspace'
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/vegabot_controller) by extensions ['colcon_pkg']
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(src/vegabot_controller) by extension 'colcon_pkg'
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(src/vegabot_controller) by extensions ['colcon_meta']
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(src/vegabot_controller) by extension 'colcon_meta'
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(src/vegabot_controller) by extensions ['ros']
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(src/vegabot_controller) by extension 'ros'
+[0.960s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vegabot_controller' with type 'ros.ament_cmake' and name 'vegabot_controller'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/vegabot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/vegabot_description) by extension 'ignore'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/vegabot_description) by extension 'ignore_ament_install'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/vegabot_description) by extensions ['cargo_workspace']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/vegabot_description) by extension 'cargo_workspace'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/vegabot_description) by extensions ['colcon_pkg']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/vegabot_description) by extension 'colcon_pkg'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/vegabot_description) by extensions ['colcon_meta']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/vegabot_description) by extension 'colcon_meta'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/vegabot_description) by extensions ['ros']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/vegabot_description) by extension 'ros'
+[0.964s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vegabot_description' with type 'ros.ament_cmake' and name 'vegabot_description'
+[0.964s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.964s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.964s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.964s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.964s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.964s] Level 1:colcon.colcon_core.package_discovery:discover_packages(cargo_workspace) discover
+[0.964s] Level 1:colcon.colcon_core.package_discovery:discover_packages(cargo_workspace) using defaults
+[1.073s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.073s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.084s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 10 installed packages in /home/spkmak/ros2_ws/install
+[1.088s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 415 installed packages in /opt/ros/humble
+[1.094s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.281s] Level 5:colcon.colcon_core.verb:set package 'vegabot_controller' build argument 'cargo_args' from command line to 'None'
+[1.282s] Level 5:colcon.colcon_core.verb:set package 'vegabot_controller' build argument 'clean_build' from command line to 'False'
+[1.282s] Level 5:colcon.colcon_core.verb:set package 'vegabot_controller' build argument 'cmake_args' from command line to 'None'
+[1.282s] Level 5:colcon.colcon_core.verb:set package 'vegabot_controller' build argument 'cmake_target' from command line to 'None'
+[1.282s] Level 5:colcon.colcon_core.verb:set package 'vegabot_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.282s] Level 5:colcon.colcon_core.verb:set package 'vegabot_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[1.282s] Level 5:colcon.colcon_core.verb:set package 'vegabot_controller' build argument 'cmake_clean_first' from command line to 'False'
+[1.282s] Level 5:colcon.colcon_core.verb:set package 'vegabot_controller' build argument 'cmake_force_configure' from command line to 'False'
+[1.282s] Level 5:colcon.colcon_core.verb:set package 'vegabot_controller' build argument 'lookup_in_workspace' from command line to 'False'
+[1.282s] Level 5:colcon.colcon_core.verb:set package 'vegabot_controller' build argument 'ament_cmake_args' from command line to 'None'
+[1.282s] Level 5:colcon.colcon_core.verb:set package 'vegabot_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[1.282s] Level 5:colcon.colcon_core.verb:set package 'vegabot_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.282s] DEBUG:colcon.colcon_core.verb:Building package 'vegabot_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/spkmak/vegabot_ws/build/vegabot_controller', 'cargo_args': None, 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'clean_build': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/spkmak/vegabot_ws/install/vegabot_controller', 'lookup_in_workspace': False, 'merge_install': False, 'path': '/home/spkmak/vegabot_ws/src/vegabot_controller', 'symlink_install': False, 'test_result_base': None}
+[1.283s] Level 5:colcon.colcon_core.verb:set package 'vegabot_description' build argument 'cargo_args' from command line to 'None'
+[1.283s] Level 5:colcon.colcon_core.verb:set package 'vegabot_description' build argument 'clean_build' from command line to 'False'
+[1.283s] Level 5:colcon.colcon_core.verb:set package 'vegabot_description' build argument 'cmake_args' from command line to 'None'
+[1.283s] Level 5:colcon.colcon_core.verb:set package 'vegabot_description' build argument 'cmake_target' from command line to 'None'
+[1.283s] Level 5:colcon.colcon_core.verb:set package 'vegabot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.283s] Level 5:colcon.colcon_core.verb:set package 'vegabot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.284s] Level 5:colcon.colcon_core.verb:set package 'vegabot_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.284s] Level 5:colcon.colcon_core.verb:set package 'vegabot_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.284s] Level 5:colcon.colcon_core.verb:set package 'vegabot_description' build argument 'lookup_in_workspace' from command line to 'False'
+[1.284s] Level 5:colcon.colcon_core.verb:set package 'vegabot_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.284s] Level 5:colcon.colcon_core.verb:set package 'vegabot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.284s] Level 5:colcon.colcon_core.verb:set package 'vegabot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.284s] DEBUG:colcon.colcon_core.verb:Building package 'vegabot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/spkmak/vegabot_ws/build/vegabot_description', 'cargo_args': None, 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'clean_build': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/spkmak/vegabot_ws/install/vegabot_description', 'lookup_in_workspace': False, 'merge_install': False, 'path': '/home/spkmak/vegabot_ws/src/vegabot_description', 'symlink_install': False, 'test_result_base': None}
+[1.284s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.286s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.287s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/spkmak/vegabot_ws/src/vegabot_controller' with build type 'ament_cmake'
+[1.287s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/spkmak/vegabot_ws/src/vegabot_controller'
+[1.306s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.307s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.307s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.319s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/spkmak/vegabot_ws/src/vegabot_description' with build type 'ament_cmake'
+[1.319s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/spkmak/vegabot_ws/src/vegabot_description'
+[1.320s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.322s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.341s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/spkmak/vegabot_ws/build/vegabot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/spkmak/ros2_ws/install/so_arm_100_bringup:/opt/ros/humble /home/spkmak/.local/bin/cmake --build /home/spkmak/vegabot_ws/build/vegabot_controller -- -j6 -l6
+[1.361s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/spkmak/vegabot_ws/build/vegabot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/spkmak/ros2_ws/install/so_arm_100_bringup:/opt/ros/humble /home/spkmak/.local/bin/cmake --build /home/spkmak/vegabot_ws/build/vegabot_description -- -j6 -l6
+[2.099s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/spkmak/vegabot_ws/build/vegabot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/spkmak/ros2_ws/install/so_arm_100_bringup:/opt/ros/humble /home/spkmak/.local/bin/cmake --build /home/spkmak/vegabot_ws/build/vegabot_controller -- -j6 -l6
+[2.267s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/spkmak/vegabot_ws/build/vegabot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/spkmak/ros2_ws/install/so_arm_100_bringup:/opt/ros/humble /home/spkmak/.local/bin/cmake --install /home/spkmak/vegabot_ws/build/vegabot_controller
+[2.269s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/spkmak/vegabot_ws/build/vegabot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/spkmak/ros2_ws/install/so_arm_100_bringup:/opt/ros/humble /home/spkmak/.local/bin/cmake --build /home/spkmak/vegabot_ws/build/vegabot_description -- -j6 -l6
+[2.283s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/spkmak/vegabot_ws/build/vegabot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/spkmak/ros2_ws/install/so_arm_100_bringup:/opt/ros/humble /home/spkmak/.local/bin/cmake --install /home/spkmak/vegabot_ws/build/vegabot_description
+[2.435s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vegabot_controller)
+[2.437s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/spkmak/vegabot_ws/build/vegabot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/spkmak/ros2_ws/install/so_arm_100_bringup:/opt/ros/humble /home/spkmak/.local/bin/cmake --install /home/spkmak/vegabot_ws/build/vegabot_controller
+[2.481s] Level 1:colcon.colcon_core.environment:checking '/home/spkmak/vegabot_ws/install/vegabot_controller' for CMake module files
+[2.489s] Level 1:colcon.colcon_core.environment:checking '/home/spkmak/vegabot_ws/install/vegabot_controller' for CMake config files
+[2.495s] Level 1:colcon.colcon_core.shell:create_environment_hook('vegabot_controller', 'cmake_prefix_path')
+[2.496s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/spkmak/vegabot_ws/install/vegabot_controller/share/vegabot_controller/hook/cmake_prefix_path.ps1'
+[2.503s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/spkmak/vegabot_ws/install/vegabot_controller/share/vegabot_controller/hook/cmake_prefix_path.dsv'
+[2.506s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/spkmak/vegabot_ws/install/vegabot_controller/share/vegabot_controller/hook/cmake_prefix_path.sh'
+[2.512s] Level 1:colcon.colcon_core.environment:checking '/home/spkmak/vegabot_ws/install/vegabot_controller/bin'
+[2.513s] Level 1:colcon.colcon_core.environment:checking '/home/spkmak/vegabot_ws/install/vegabot_controller/lib/pkgconfig/vegabot_controller.pc'
+[2.514s] Level 1:colcon.colcon_core.environment:checking '/home/spkmak/vegabot_ws/install/vegabot_controller/lib/python3.10/site-packages'
+[2.515s] Level 1:colcon.colcon_core.environment:checking '/home/spkmak/vegabot_ws/install/vegabot_controller/bin'
+[2.517s] INFO:colcon.colcon_core.shell:Creating package script '/home/spkmak/vegabot_ws/install/vegabot_controller/share/vegabot_controller/package.ps1'
+[2.526s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/spkmak/vegabot_ws/install/vegabot_controller/share/vegabot_controller/package.dsv'
+[2.530s] INFO:colcon.colcon_core.shell:Creating package script '/home/spkmak/vegabot_ws/install/vegabot_controller/share/vegabot_controller/package.sh'
+[2.534s] INFO:colcon.colcon_core.shell:Creating package script '/home/spkmak/vegabot_ws/install/vegabot_controller/share/vegabot_controller/package.bash'
+[2.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/spkmak/vegabot_ws/install/vegabot_controller/share/vegabot_controller/package.zsh'
+[2.544s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/spkmak/vegabot_ws/install/vegabot_controller/share/colcon-core/packages/vegabot_controller)
+[2.550s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vegabot_controller)
+[2.551s] Level 1:colcon.colcon_core.environment:checking '/home/spkmak/vegabot_ws/install/vegabot_controller' for CMake module files
+[2.555s] Level 1:colcon.colcon_core.environment:checking '/home/spkmak/vegabot_ws/install/vegabot_controller' for CMake config files
+[2.559s] Level 1:colcon.colcon_core.shell:create_environment_hook('vegabot_controller', 'cmake_prefix_path')
+[2.560s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/spkmak/vegabot_ws/install/vegabot_controller/share/vegabot_controller/hook/cmake_prefix_path.ps1'
+[2.563s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/spkmak/vegabot_ws/install/vegabot_controller/share/vegabot_controller/hook/cmake_prefix_path.dsv'
+[2.565s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/spkmak/vegabot_ws/install/vegabot_controller/share/vegabot_controller/hook/cmake_prefix_path.sh'
+[2.569s] Level 1:colcon.colcon_core.environment:checking '/home/spkmak/vegabot_ws/install/vegabot_controller/bin'
+[2.569s] Level 1:colcon.colcon_core.environment:checking '/home/spkmak/vegabot_ws/install/vegabot_controller/lib/pkgconfig/vegabot_controller.pc'
+[2.570s] Level 1:colcon.colcon_core.environment:checking '/home/spkmak/vegabot_ws/install/vegabot_controller/lib/python3.10/site-packages'
+[2.572s] Level 1:colcon.colcon_core.environment:checking '/home/spkmak/vegabot_ws/install/vegabot_controller/bin'
+[2.573s] INFO:colcon.colcon_core.shell:Creating package script '/home/spkmak/vegabot_ws/install/vegabot_controller/share/vegabot_controller/package.ps1'
+[2.577s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/spkmak/vegabot_ws/install/vegabot_controller/share/vegabot_controller/package.dsv'
+[2.580s] INFO:colcon.colcon_core.shell:Creating package script '/home/spkmak/vegabot_ws/install/vegabot_controller/share/vegabot_controller/package.sh'
+[2.583s] INFO:colcon.colcon_core.shell:Creating package script '/home/spkmak/vegabot_ws/install/vegabot_controller/share/vegabot_controller/package.bash'
+[2.586s] INFO:colcon.colcon_core.shell:Creating package script '/home/spkmak/vegabot_ws/install/vegabot_controller/share/vegabot_controller/package.zsh'
+[2.589s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/spkmak/vegabot_ws/install/vegabot_controller/share/colcon-core/packages/vegabot_controller)
+[2.593s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vegabot_description)
+[2.594s] Level 1:colcon.colcon_core.environment:checking '/home/spkmak/vegabot_ws/install/vegabot_description' for CMake module files
+[2.601s] Level 1:colcon.colcon_core.environment:checking '/home/spkmak/vegabot_ws/install/vegabot_description' for CMake config files
+[2.746s] Level 1:colcon.colcon_core.shell:create_environment_hook('vegabot_description', 'cmake_prefix_path')
+[2.747s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/hook/cmake_prefix_path.ps1'
+[2.749s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/hook/cmake_prefix_path.dsv'
+[2.751s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/hook/cmake_prefix_path.sh'
+[2.753s] Level 1:colcon.colcon_core.environment:checking '/home/spkmak/vegabot_ws/install/vegabot_description/bin'
+[2.754s] Level 1:colcon.colcon_core.environment:checking '/home/spkmak/vegabot_ws/install/vegabot_description/lib/pkgconfig/vegabot_description.pc'
+[2.755s] Level 1:colcon.colcon_core.environment:checking '/home/spkmak/vegabot_ws/install/vegabot_description/lib/python3.10/site-packages'
+[2.756s] Level 1:colcon.colcon_core.environment:checking '/home/spkmak/vegabot_ws/install/vegabot_description/bin'
+[2.757s] INFO:colcon.colcon_core.shell:Creating package script '/home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/package.ps1'
+[2.759s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/package.dsv'
+[2.762s] INFO:colcon.colcon_core.shell:Creating package script '/home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/package.sh'
+[2.765s] INFO:colcon.colcon_core.shell:Creating package script '/home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/package.bash'
+[2.767s] INFO:colcon.colcon_core.shell:Creating package script '/home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/package.zsh'
+[2.769s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/spkmak/vegabot_ws/install/vegabot_description/share/colcon-core/packages/vegabot_description)
+[2.773s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vegabot_description)
+[2.773s] Level 1:colcon.colcon_core.environment:checking '/home/spkmak/vegabot_ws/install/vegabot_description' for CMake module files
+[2.778s] Level 1:colcon.colcon_core.environment:checking '/home/spkmak/vegabot_ws/install/vegabot_description' for CMake config files
+[2.805s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/spkmak/vegabot_ws/build/vegabot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/spkmak/ros2_ws/install/so_arm_100_bringup:/opt/ros/humble /home/spkmak/.local/bin/cmake --install /home/spkmak/vegabot_ws/build/vegabot_description
+[2.819s] Level 1:colcon.colcon_core.shell:create_environment_hook('vegabot_description', 'cmake_prefix_path')
+[2.820s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/hook/cmake_prefix_path.ps1'
+[2.821s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/hook/cmake_prefix_path.dsv'
+[2.823s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/hook/cmake_prefix_path.sh'
+[2.825s] Level 1:colcon.colcon_core.environment:checking '/home/spkmak/vegabot_ws/install/vegabot_description/bin'
+[2.825s] Level 1:colcon.colcon_core.environment:checking '/home/spkmak/vegabot_ws/install/vegabot_description/lib/pkgconfig/vegabot_description.pc'
+[2.826s] Level 1:colcon.colcon_core.environment:checking '/home/spkmak/vegabot_ws/install/vegabot_description/lib/python3.10/site-packages'
+[2.827s] Level 1:colcon.colcon_core.environment:checking '/home/spkmak/vegabot_ws/install/vegabot_description/bin'
+[2.828s] INFO:colcon.colcon_core.shell:Creating package script '/home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/package.ps1'
+[2.830s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/package.dsv'
+[2.832s] INFO:colcon.colcon_core.shell:Creating package script '/home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/package.sh'
+[2.833s] INFO:colcon.colcon_core.shell:Creating package script '/home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/package.bash'
+[2.835s] INFO:colcon.colcon_core.shell:Creating package script '/home/spkmak/vegabot_ws/install/vegabot_description/share/vegabot_description/package.zsh'
+[2.836s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/spkmak/vegabot_ws/install/vegabot_description/share/colcon-core/packages/vegabot_description)
+[2.837s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.838s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.838s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.839s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.904s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.905s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.905s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.947s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.949s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/spkmak/vegabot_ws/install/local_setup.ps1'
+[2.962s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/spkmak/vegabot_ws/install/_local_setup_util_ps1.py'
+[2.969s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/spkmak/vegabot_ws/install/setup.ps1'
+[2.976s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/spkmak/vegabot_ws/install/local_setup.sh'
+[2.979s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/spkmak/vegabot_ws/install/_local_setup_util_sh.py'
+[2.982s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/spkmak/vegabot_ws/install/setup.sh'
+[2.988s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/spkmak/vegabot_ws/install/local_setup.bash'
+[2.991s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/spkmak/vegabot_ws/install/setup.bash'
+[2.997s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/spkmak/vegabot_ws/install/local_setup.zsh'
+[3.000s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/spkmak/vegabot_ws/install/setup.zsh'

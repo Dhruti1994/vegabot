@@ -1,0 +1,30 @@
+[1.644s] Invoking command in '/home/spkmak/vegabot_ws/src/vegabot_scripts': PYTHONPATH=/home/spkmak/vegabot_ws/build/vegabot_scripts/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/spkmak/vegabot_ws/install/vegabot_scripts/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/vegabot_scripts build --build-base /home/spkmak/vegabot_ws/build/vegabot_scripts/build install --record /home/spkmak/vegabot_ws/build/vegabot_scripts/install.log --install-scripts $base/lib/vegabot_scripts --single-version-externally-managed install_data
+[2.179s] running egg_info
+[2.215s] writing ../../build/vegabot_scripts/vegabot_scripts.egg-info/PKG-INFO
+[2.217s] writing dependency_links to ../../build/vegabot_scripts/vegabot_scripts.egg-info/dependency_links.txt
+[2.217s] writing entry points to ../../build/vegabot_scripts/vegabot_scripts.egg-info/entry_points.txt
+[2.218s] writing requirements to ../../build/vegabot_scripts/vegabot_scripts.egg-info/requires.txt
+[2.218s] writing top-level names to ../../build/vegabot_scripts/vegabot_scripts.egg-info/top_level.txt
+[2.295s] reading manifest file '../../build/vegabot_scripts/vegabot_scripts.egg-info/SOURCES.txt'
+[2.298s] writing manifest file '../../build/vegabot_scripts/vegabot_scripts.egg-info/SOURCES.txt'
+[2.298s] running build
+[2.298s] running build_py
+[2.300s] running install
+[2.308s] running install_lib
+[2.347s] running install_data
+[2.347s] copying package.xml -> /home/spkmak/vegabot_ws/install/vegabot_scripts/share/vegabot_scripts
+[2.348s] running install_egg_info
+[2.386s] removing '/home/spkmak/vegabot_ws/install/vegabot_scripts/lib/python3.10/site-packages/vegabot_scripts-0.0.0-py3.10.egg-info' (and everything under it)
+[2.387s] Copying ../../build/vegabot_scripts/vegabot_scripts.egg-info to /home/spkmak/vegabot_ws/install/vegabot_scripts/lib/python3.10/site-packages/vegabot_scripts-0.0.0-py3.10.egg-info
+[2.389s] running install_scripts
+[2.681s] Installing auto_docking_undocking script to /home/spkmak/vegabot_ws/install/vegabot_scripts/lib/vegabot_scripts
+[2.682s] Installing auto_docking_with_battery script to /home/spkmak/vegabot_ws/install/vegabot_scripts/lib/vegabot_scripts
+[2.682s] Installing detect_marker script to /home/spkmak/vegabot_ws/install/vegabot_scripts/lib/vegabot_scripts
+[2.682s] Installing docking_with_patrolling script to /home/spkmak/vegabot_ws/install/vegabot_scripts/lib/vegabot_scripts
+[2.682s] Installing maze_solver script to /home/spkmak/vegabot_ws/install/vegabot_scripts/lib/vegabot_scripts
+[2.683s] Installing obstacle_avoidance script to /home/spkmak/vegabot_ws/install/vegabot_scripts/lib/vegabot_scripts
+[2.683s] Installing read_camera script to /home/spkmak/vegabot_ws/install/vegabot_scripts/lib/vegabot_scripts
+[2.683s] Installing read_imu script to /home/spkmak/vegabot_ws/install/vegabot_scripts/lib/vegabot_scripts
+[2.683s] Installing read_lidar script to /home/spkmak/vegabot_ws/install/vegabot_scripts/lib/vegabot_scripts
+[2.684s] writing list of installed files to '/home/spkmak/vegabot_ws/build/vegabot_scripts/install.log'
+[2.759s] Invoked command in '/home/spkmak/vegabot_ws/src/vegabot_scripts' returned '0': PYTHONPATH=/home/spkmak/vegabot_ws/build/vegabot_scripts/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/spkmak/vegabot_ws/install/vegabot_scripts/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/vegabot_scripts build --build-base /home/spkmak/vegabot_ws/build/vegabot_scripts/build install --record /home/spkmak/vegabot_ws/build/vegabot_scripts/install.log --install-scripts $base/lib/vegabot_scripts --single-version-externally-managed install_data

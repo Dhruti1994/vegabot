@@ -1,0 +1,51 @@
+[0.071s] Invoking command in '/home/spkmak/vegabot_ws/build/vegabot_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/spkmak/vegabot_ws/install/vegabot_scripts:/home/spkmak/ros2_ws/install/so_arm_100_bringup:/opt/ros/humble /home/spkmak/.local/bin/cmake --build /home/spkmak/vegabot_ws/build/vegabot_navigation -- -j6 -l6
+[0.286s] Built target ament_cmake_python_copy_vegabot_navigation
+[0.896s] running egg_info
+[0.897s] writing vegabot_navigation.egg-info/PKG-INFO
+[0.897s] writing dependency_links to vegabot_navigation.egg-info/dependency_links.txt
+[0.897s] writing top-level names to vegabot_navigation.egg-info/top_level.txt
+[0.935s] reading manifest file 'vegabot_navigation.egg-info/SOURCES.txt'
+[0.938s] writing manifest file 'vegabot_navigation.egg-info/SOURCES.txt'
+[1.016s] Built target ament_cmake_python_build_vegabot_navigation_egg
+[1.401s] Invoked command in '/home/spkmak/vegabot_ws/build/vegabot_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/spkmak/vegabot_ws/install/vegabot_scripts:/home/spkmak/ros2_ws/install/so_arm_100_bringup:/opt/ros/humble /home/spkmak/.local/bin/cmake --build /home/spkmak/vegabot_ws/build/vegabot_navigation -- -j6 -l6
+[1.404s] Invoking command in '/home/spkmak/vegabot_ws/build/vegabot_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/spkmak/vegabot_ws/install/vegabot_scripts:/home/spkmak/ros2_ws/install/so_arm_100_bringup:/opt/ros/humble /home/spkmak/.local/bin/cmake --install /home/spkmak/vegabot_ws/build/vegabot_navigation
+[1.556s] -- Install configuration: ""
+[1.557s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_navigation/share/vegabot_navigation/environment/pythonpath.sh
+[1.557s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_navigation/share/vegabot_navigation/environment/pythonpath.dsv
+[1.558s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_navigation/local/lib/python3.10/dist-packages/vegabot_navigation-0.0.0-py3.10.egg-info
+[1.558s] -- Installing: /home/spkmak/vegabot_ws/install/vegabot_navigation/local/lib/python3.10/dist-packages/vegabot_navigation-0.0.0-py3.10.egg-info/top_level.txt
+[1.558s] -- Installing: /home/spkmak/vegabot_ws/install/vegabot_navigation/local/lib/python3.10/dist-packages/vegabot_navigation-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.558s] -- Installing: /home/spkmak/vegabot_ws/install/vegabot_navigation/local/lib/python3.10/dist-packages/vegabot_navigation-0.0.0-py3.10.egg-info/PKG-INFO
+[1.559s] -- Installing: /home/spkmak/vegabot_ws/install/vegabot_navigation/local/lib/python3.10/dist-packages/vegabot_navigation-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.559s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_navigation/local/lib/python3.10/dist-packages/vegabot_navigation
+[1.559s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_navigation/local/lib/python3.10/dist-packages/vegabot_navigation/waypoint_following.py
+[1.559s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_navigation/local/lib/python3.10/dist-packages/vegabot_navigation/__init__.py
+[1.621s] Listing '/home/spkmak/vegabot_ws/install/vegabot_navigation/local/lib/python3.10/dist-packages/vegabot_navigation'...
+[1.633s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_navigation/share/vegabot_navigation/launch
+[1.634s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_navigation/share/vegabot_navigation/launch/navigation.launch.py
+[1.634s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_navigation/share/vegabot_navigation/config
+[1.634s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_navigation/share/vegabot_navigation/config/smoother_server.yaml
+[1.634s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_navigation/share/vegabot_navigation/config/planner_server.yaml
+[1.634s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_navigation/share/vegabot_navigation/config/behavior_server.yaml
+[1.635s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_navigation/share/vegabot_navigation/config/bt_navigator.yaml
+[1.635s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_navigation/share/vegabot_navigation/config/waypoint_follower.yaml
+[1.635s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_navigation/share/vegabot_navigation/config/controller_server.yaml
+[1.635s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_navigation/share/vegabot_navigation/behavior_tree
+[1.635s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_navigation/share/vegabot_navigation/behavior_tree/simple_navigation_w_replanning_and_recovery.xml
+[1.635s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_navigation/lib/vegabot_navigation/waypoint_following.py
+[1.635s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_navigation/share/ament_index/resource_index/package_run_dependencies/vegabot_navigation
+[1.635s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_navigation/share/ament_index/resource_index/parent_prefix_path/vegabot_navigation
+[1.636s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_navigation/share/vegabot_navigation/environment/ament_prefix_path.sh
+[1.636s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_navigation/share/vegabot_navigation/environment/ament_prefix_path.dsv
+[1.636s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_navigation/share/vegabot_navigation/environment/path.sh
+[1.636s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_navigation/share/vegabot_navigation/environment/path.dsv
+[1.636s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_navigation/share/vegabot_navigation/local_setup.bash
+[1.636s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_navigation/share/vegabot_navigation/local_setup.sh
+[1.636s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_navigation/share/vegabot_navigation/local_setup.zsh
+[1.636s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_navigation/share/vegabot_navigation/local_setup.dsv
+[1.636s] -- Installing: /home/spkmak/vegabot_ws/install/vegabot_navigation/share/vegabot_navigation/package.dsv
+[1.636s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_navigation/share/ament_index/resource_index/packages/vegabot_navigation
+[1.637s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_navigation/share/vegabot_navigation/cmake/vegabot_navigationConfig.cmake
+[1.637s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_navigation/share/vegabot_navigation/cmake/vegabot_navigationConfig-version.cmake
+[1.637s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_navigation/share/vegabot_navigation/package.xml
+[1.640s] Invoked command in '/home/spkmak/vegabot_ws/build/vegabot_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/spkmak/vegabot_ws/install/vegabot_scripts:/home/spkmak/ros2_ws/install/so_arm_100_bringup:/opt/ros/humble /home/spkmak/.local/bin/cmake --install /home/spkmak/vegabot_ws/build/vegabot_navigation

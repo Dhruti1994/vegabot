@@ -1,0 +1,28 @@
+running egg_info
+writing ../../build/vegabot_scripts/vegabot_scripts.egg-info/PKG-INFO
+writing dependency_links to ../../build/vegabot_scripts/vegabot_scripts.egg-info/dependency_links.txt
+writing entry points to ../../build/vegabot_scripts/vegabot_scripts.egg-info/entry_points.txt
+writing requirements to ../../build/vegabot_scripts/vegabot_scripts.egg-info/requires.txt
+writing top-level names to ../../build/vegabot_scripts/vegabot_scripts.egg-info/top_level.txt
+reading manifest file '../../build/vegabot_scripts/vegabot_scripts.egg-info/SOURCES.txt'
+writing manifest file '../../build/vegabot_scripts/vegabot_scripts.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying package.xml -> /home/spkmak/vegabot_ws/install/vegabot_scripts/share/vegabot_scripts
+running install_egg_info
+removing '/home/spkmak/vegabot_ws/install/vegabot_scripts/lib/python3.10/site-packages/vegabot_scripts-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/vegabot_scripts/vegabot_scripts.egg-info to /home/spkmak/vegabot_ws/install/vegabot_scripts/lib/python3.10/site-packages/vegabot_scripts-0.0.0-py3.10.egg-info
+running install_scripts
+Installing auto_docking_undocking script to /home/spkmak/vegabot_ws/install/vegabot_scripts/lib/vegabot_scripts
+Installing auto_docking_with_battery script to /home/spkmak/vegabot_ws/install/vegabot_scripts/lib/vegabot_scripts
+Installing detect_marker script to /home/spkmak/vegabot_ws/install/vegabot_scripts/lib/vegabot_scripts
+Installing docking_with_patrolling script to /home/spkmak/vegabot_ws/install/vegabot_scripts/lib/vegabot_scripts
+Installing maze_solver script to /home/spkmak/vegabot_ws/install/vegabot_scripts/lib/vegabot_scripts
+Installing obstacle_avoidance script to /home/spkmak/vegabot_ws/install/vegabot_scripts/lib/vegabot_scripts
+Installing read_camera script to /home/spkmak/vegabot_ws/install/vegabot_scripts/lib/vegabot_scripts
+Installing read_imu script to /home/spkmak/vegabot_ws/install/vegabot_scripts/lib/vegabot_scripts
+Installing read_lidar script to /home/spkmak/vegabot_ws/install/vegabot_scripts/lib/vegabot_scripts
+writing list of installed files to '/home/spkmak/vegabot_ws/build/vegabot_scripts/install.log'

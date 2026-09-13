@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/spkmak/vegabot_ws/build/vegabot_mapping/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

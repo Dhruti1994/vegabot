@@ -1,0 +1,26 @@
+[0.064s] Invoking command in '/home/spkmak/vegabot_ws/build/vegabot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/spkmak/ros2_ws/install/so_arm_100_bringup:/opt/ros/humble /home/spkmak/.local/bin/cmake --build /home/spkmak/vegabot_ws/build/vegabot_localization -- -j6 -l6
+[0.759s] Invoked command in '/home/spkmak/vegabot_ws/build/vegabot_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/spkmak/ros2_ws/install/so_arm_100_bringup:/opt/ros/humble /home/spkmak/.local/bin/cmake --build /home/spkmak/vegabot_ws/build/vegabot_localization -- -j6 -l6
+[0.761s] Invoking command in '/home/spkmak/vegabot_ws/build/vegabot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/spkmak/ros2_ws/install/so_arm_100_bringup:/opt/ros/humble /home/spkmak/.local/bin/cmake --install /home/spkmak/vegabot_ws/build/vegabot_localization
+[1.165s] -- Install configuration: ""
+[1.169s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_localization/share/vegabot_localization/launch
+[1.169s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_localization/share/vegabot_localization/launch/global_localization.launch.py
+[1.170s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_localization/share/vegabot_localization/config
+[1.170s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_localization/share/vegabot_localization/config/amcl.yaml
+[1.170s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_localization/share/vegabot_localization/rviz
+[1.170s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_localization/share/vegabot_localization/rviz/global_localization.rviz
+[1.170s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_localization/share/ament_index/resource_index/package_run_dependencies/vegabot_localization
+[1.170s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_localization/share/ament_index/resource_index/parent_prefix_path/vegabot_localization
+[1.170s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_localization/share/vegabot_localization/environment/ament_prefix_path.sh
+[1.171s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_localization/share/vegabot_localization/environment/ament_prefix_path.dsv
+[1.171s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_localization/share/vegabot_localization/environment/path.sh
+[1.171s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_localization/share/vegabot_localization/environment/path.dsv
+[1.171s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_localization/share/vegabot_localization/local_setup.bash
+[1.171s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_localization/share/vegabot_localization/local_setup.sh
+[1.171s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_localization/share/vegabot_localization/local_setup.zsh
+[1.172s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_localization/share/vegabot_localization/local_setup.dsv
+[1.172s] -- Installing: /home/spkmak/vegabot_ws/install/vegabot_localization/share/vegabot_localization/package.dsv
+[1.172s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_localization/share/ament_index/resource_index/packages/vegabot_localization
+[1.172s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_localization/share/vegabot_localization/cmake/vegabot_localizationConfig.cmake
+[1.172s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_localization/share/vegabot_localization/cmake/vegabot_localizationConfig-version.cmake
+[1.173s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_localization/share/vegabot_localization/package.xml
+[1.193s] Invoked command in '/home/spkmak/vegabot_ws/build/vegabot_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/spkmak/ros2_ws/install/so_arm_100_bringup:/opt/ros/humble /home/spkmak/.local/bin/cmake --install /home/spkmak/vegabot_ws/build/vegabot_localization

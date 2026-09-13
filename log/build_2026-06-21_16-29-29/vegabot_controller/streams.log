@@ -1,0 +1,30 @@
+[0.053s] Invoking command in '/home/spkmak/vegabot_ws/build/vegabot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/spkmak/ros2_ws/install/so_arm_100_bringup:/opt/ros/humble /home/spkmak/.local/bin/cmake --build /home/spkmak/vegabot_ws/build/vegabot_controller -- -j6 -l6
+[0.810s] Invoked command in '/home/spkmak/vegabot_ws/build/vegabot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/spkmak/ros2_ws/install/so_arm_100_bringup:/opt/ros/humble /home/spkmak/.local/bin/cmake --build /home/spkmak/vegabot_ws/build/vegabot_controller -- -j6 -l6
+[0.978s] Invoking command in '/home/spkmak/vegabot_ws/build/vegabot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/spkmak/ros2_ws/install/so_arm_100_bringup:/opt/ros/humble /home/spkmak/.local/bin/cmake --install /home/spkmak/vegabot_ws/build/vegabot_controller
+[1.137s] -- Install configuration: ""
+[1.138s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_controller/share/vegabot_controller/launch
+[1.139s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_controller/share/vegabot_controller/launch/joystick.launch.py
+[1.139s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_controller/share/vegabot_controller/launch/controller.launch.py
+[1.139s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_controller/share/vegabot_controller/config
+[1.140s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_controller/share/vegabot_controller/config/vegabot_controllers.yaml
+[1.140s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_controller/share/vegabot_controller/config/twist_mux_locks.yaml
+[1.140s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_controller/share/vegabot_controller/config/twist_mux_joy.yaml
+[1.140s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_controller/share/vegabot_controller/config/twist_mux_topics.yaml
+[1.141s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_controller/share/vegabot_controller/config/joy_teleop.yaml
+[1.141s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_controller/share/vegabot_controller/config/joy_config.yaml
+[1.141s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_controller/share/ament_index/resource_index/package_run_dependencies/vegabot_controller
+[1.142s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_controller/share/ament_index/resource_index/parent_prefix_path/vegabot_controller
+[1.142s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_controller/share/vegabot_controller/environment/ament_prefix_path.sh
+[1.142s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_controller/share/vegabot_controller/environment/ament_prefix_path.dsv
+[1.143s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_controller/share/vegabot_controller/environment/path.sh
+[1.143s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_controller/share/vegabot_controller/environment/path.dsv
+[1.143s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_controller/share/vegabot_controller/local_setup.bash
+[1.143s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_controller/share/vegabot_controller/local_setup.sh
+[1.144s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_controller/share/vegabot_controller/local_setup.zsh
+[1.144s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_controller/share/vegabot_controller/local_setup.dsv
+[1.144s] -- Installing: /home/spkmak/vegabot_ws/install/vegabot_controller/share/vegabot_controller/package.dsv
+[1.144s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_controller/share/ament_index/resource_index/packages/vegabot_controller
+[1.145s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_controller/share/vegabot_controller/cmake/vegabot_controllerConfig.cmake
+[1.145s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_controller/share/vegabot_controller/cmake/vegabot_controllerConfig-version.cmake
+[1.147s] -- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_controller/share/vegabot_controller/package.xml
+[1.148s] Invoked command in '/home/spkmak/vegabot_ws/build/vegabot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/spkmak/ros2_ws/install/so_arm_100_bringup:/opt/ros/humble /home/spkmak/.local/bin/cmake --install /home/spkmak/vegabot_ws/build/vegabot_controller

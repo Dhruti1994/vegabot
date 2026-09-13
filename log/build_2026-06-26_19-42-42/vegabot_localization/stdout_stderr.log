@@ -1,0 +1,22 @@
+-- Install configuration: ""
+-- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_localization/share/vegabot_localization/launch
+-- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_localization/share/vegabot_localization/launch/global_localization.launch.py
+-- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_localization/share/vegabot_localization/config
+-- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_localization/share/vegabot_localization/config/amcl.yaml
+-- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_localization/share/vegabot_localization/rviz
+-- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_localization/share/vegabot_localization/rviz/global_localization.rviz
+-- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_localization/share/ament_index/resource_index/package_run_dependencies/vegabot_localization
+-- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_localization/share/ament_index/resource_index/parent_prefix_path/vegabot_localization
+-- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_localization/share/vegabot_localization/environment/ament_prefix_path.sh
+-- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_localization/share/vegabot_localization/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_localization/share/vegabot_localization/environment/path.sh
+-- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_localization/share/vegabot_localization/environment/path.dsv
+-- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_localization/share/vegabot_localization/local_setup.bash
+-- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_localization/share/vegabot_localization/local_setup.sh
+-- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_localization/share/vegabot_localization/local_setup.zsh
+-- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_localization/share/vegabot_localization/local_setup.dsv
+-- Installing: /home/spkmak/vegabot_ws/install/vegabot_localization/share/vegabot_localization/package.dsv
+-- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_localization/share/ament_index/resource_index/packages/vegabot_localization
+-- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_localization/share/vegabot_localization/cmake/vegabot_localizationConfig.cmake
+-- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_localization/share/vegabot_localization/cmake/vegabot_localizationConfig-version.cmake
+-- Up-to-date: /home/spkmak/vegabot_ws/install/vegabot_localization/share/vegabot_localization/package.xml

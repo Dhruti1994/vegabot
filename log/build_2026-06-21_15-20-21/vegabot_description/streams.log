@@ -1,0 +1,32 @@
+[0.029s] Invoking command in '/home/spkmak/vegabot_ws/build/vegabot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/spkmak/ros2_ws/install/so_arm_100_bringup:/home/spkmak/ros2_ws/install/mechabot_scripts:/opt/ros/humble /home/spkmak/.local/bin/cmake /home/spkmak/vegabot_ws/src/vegabot_description -DCMAKE_INSTALL_PREFIX=/home/spkmak/vegabot_ws/install/vegabot_description
+[0.171s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.171s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.171s]   CMake.
+[0.171s] 
+[0.171s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.171s]   to tell CMake that the project requires at least <min> but has been updated
+[0.171s]   to work with policies introduced by <max> or earlier.
+[0.171s] 
+[0.172s] [0m
+[0.257s] -- The C compiler identification is GNU 11.4.0
+[0.399s] -- The CXX compiler identification is GNU 11.4.0
+[0.430s] -- Detecting C compiler ABI info
+[0.554s] -- Detecting C compiler ABI info - done
+[0.608s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.609s] -- Detecting C compile features
+[0.611s] -- Detecting C compile features - done
+[0.644s] -- Detecting CXX compiler ABI info
+[0.778s] -- Detecting CXX compiler ABI info - done
+[0.830s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.830s] -- Detecting CXX compile features
+[0.831s] -- Detecting CXX compile features - done
+[0.861s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.194s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[1.459s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.731s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.751s] -- Added test 'lint_cmake' to check CMake code style
+[1.764s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.842s] -- Added test 'xmllint' to check XML markup files
+[1.846s] -- Configuring done (1.7s)
+[1.873s] -- Generating done (0.0s)
+[1.881s] -- Build files have been written to: /home/spkmak/vegabot_ws/build/vegabot_description

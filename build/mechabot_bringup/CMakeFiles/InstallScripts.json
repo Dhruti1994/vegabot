@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/spkmak/vegabot_ws/build/mechabot_bringup/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

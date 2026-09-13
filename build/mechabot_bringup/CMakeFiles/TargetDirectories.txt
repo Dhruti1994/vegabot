@@ -1,0 +1,9 @@
+/home/spkmak/vegabot_ws/build/mechabot_bringup/CMakeFiles/uninstall.dir
+/home/spkmak/vegabot_ws/build/mechabot_bringup/CMakeFiles/mechabot_bringup_uninstall.dir
+/home/spkmak/vegabot_ws/build/mechabot_bringup/CMakeFiles/test.dir
+/home/spkmak/vegabot_ws/build/mechabot_bringup/CMakeFiles/edit_cache.dir
+/home/spkmak/vegabot_ws/build/mechabot_bringup/CMakeFiles/rebuild_cache.dir
+/home/spkmak/vegabot_ws/build/mechabot_bringup/CMakeFiles/list_install_components.dir
+/home/spkmak/vegabot_ws/build/mechabot_bringup/CMakeFiles/install.dir
+/home/spkmak/vegabot_ws/build/mechabot_bringup/CMakeFiles/install/local.dir
+/home/spkmak/vegabot_ws/build/mechabot_bringup/CMakeFiles/install/strip.dir

@@ -1,0 +1,16 @@
+[1.868s] Invoking command in '/home/spkmak/vegabot_ws/src/vegabot_scripts': PYTHONPATH=/home/spkmak/vegabot_ws/build/mechabot_scripts/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/spkmak/vegabot_ws/install/mechabot_scripts/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mechabot_scripts build --build-base /home/spkmak/vegabot_ws/build/mechabot_scripts/build install --record /home/spkmak/vegabot_ws/build/mechabot_scripts/install.log --install-scripts $base/lib/mechabot_scripts --single-version-externally-managed install_data
+[2.425s] running egg_info
+[2.462s] writing ../../build/mechabot_scripts/mechabot_scripts.egg-info/PKG-INFO
+[2.463s] writing dependency_links to ../../build/mechabot_scripts/mechabot_scripts.egg-info/dependency_links.txt
+[2.464s] writing entry points to ../../build/mechabot_scripts/mechabot_scripts.egg-info/entry_points.txt
+[2.464s] writing requirements to ../../build/mechabot_scripts/mechabot_scripts.egg-info/requires.txt
+[2.465s] writing top-level names to ../../build/mechabot_scripts/mechabot_scripts.egg-info/top_level.txt
+[2.544s] reading manifest file '../../build/mechabot_scripts/mechabot_scripts.egg-info/SOURCES.txt'
+[2.546s] writing manifest file '../../build/mechabot_scripts/mechabot_scripts.egg-info/SOURCES.txt'
+[2.547s] running build
+[2.547s] running build_py
+[2.548s] running install
+[2.556s] running install_lib
+[2.596s] running install_data
+[2.597s] error: can't copy 'resource/mechabot_scripts': doesn't exist or not a regular file
+[2.658s] Invoked command in '/home/spkmak/vegabot_ws/src/vegabot_scripts' returned '1': PYTHONPATH=/home/spkmak/vegabot_ws/build/mechabot_scripts/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/spkmak/vegabot_ws/install/mechabot_scripts/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mechabot_scripts build --build-base /home/spkmak/vegabot_ws/build/mechabot_scripts/build install --record /home/spkmak/vegabot_ws/build/mechabot_scripts/install.log --install-scripts $base/lib/mechabot_scripts --single-version-externally-managed install_data

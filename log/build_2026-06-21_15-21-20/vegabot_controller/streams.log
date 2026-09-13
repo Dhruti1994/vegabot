@@ -1,0 +1,63 @@
+[0.028s] Invoking command in '/home/spkmak/vegabot_ws/build/vegabot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/spkmak/ros2_ws/install/so_arm_100_bringup:/home/spkmak/ros2_ws/install/mechabot_scripts:/opt/ros/humble /home/spkmak/.local/bin/cmake /home/spkmak/vegabot_ws/src/vegabot_controller -DCMAKE_INSTALL_PREFIX=/home/spkmak/vegabot_ws/install/vegabot_controller
+[0.189s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.189s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.189s]   CMake.
+[0.189s] 
+[0.189s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.189s]   to tell CMake that the project requires at least <min> but has been updated
+[0.189s]   to work with policies introduced by <max> or earlier.
+[0.189s] 
+[0.190s] [0m
+[0.285s] -- The C compiler identification is GNU 11.4.0
+[0.417s] -- The CXX compiler identification is GNU 11.4.0
+[0.442s] -- Detecting C compiler ABI info
+[0.558s] -- Detecting C compiler ABI info - done
+[0.583s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.584s] -- Detecting C compile features
+[0.586s] -- Detecting C compile features - done
+[0.605s] -- Detecting CXX compiler ABI info
+[0.743s] -- Detecting CXX compiler ABI info - done
+[0.778s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.778s] -- Detecting CXX compile features
+[0.780s] -- Detecting CXX compile features - done
+[0.807s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.133s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[1.395s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.589s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.590s] -- Added test 'lint_cmake' to check CMake code style
+[1.592s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.596s] -- Added test 'xmllint' to check XML markup files
+[1.600s] -- Configuring done (1.4s)
+[1.608s] -- Generating done (0.0s)
+[1.611s] -- Build files have been written to: /home/spkmak/vegabot_ws/build/vegabot_controller
+[1.621s] Invoked command in '/home/spkmak/vegabot_ws/build/vegabot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/spkmak/ros2_ws/install/so_arm_100_bringup:/home/spkmak/ros2_ws/install/mechabot_scripts:/opt/ros/humble /home/spkmak/.local/bin/cmake /home/spkmak/vegabot_ws/src/vegabot_controller -DCMAKE_INSTALL_PREFIX=/home/spkmak/vegabot_ws/install/vegabot_controller
+[1.625s] Invoking command in '/home/spkmak/vegabot_ws/build/vegabot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/spkmak/ros2_ws/install/so_arm_100_bringup:/home/spkmak/ros2_ws/install/mechabot_scripts:/opt/ros/humble /home/spkmak/.local/bin/cmake --build /home/spkmak/vegabot_ws/build/vegabot_controller -- -j6 -l6
+[1.801s] Invoked command in '/home/spkmak/vegabot_ws/build/vegabot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/spkmak/ros2_ws/install/so_arm_100_bringup:/home/spkmak/ros2_ws/install/mechabot_scripts:/opt/ros/humble /home/spkmak/.local/bin/cmake --build /home/spkmak/vegabot_ws/build/vegabot_controller -- -j6 -l6
+[1.807s] Invoking command in '/home/spkmak/vegabot_ws/build/vegabot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/spkmak/ros2_ws/install/so_arm_100_bringup:/home/spkmak/ros2_ws/install/mechabot_scripts:/opt/ros/humble /home/spkmak/.local/bin/cmake --install /home/spkmak/vegabot_ws/build/vegabot_controller
+[1.960s] -- Install configuration: ""
+[1.961s] -- Installing: /home/spkmak/vegabot_ws/install/vegabot_controller/share/vegabot_controller/launch
+[1.961s] -- Installing: /home/spkmak/vegabot_ws/install/vegabot_controller/share/vegabot_controller/launch/joystick.launch.py
+[1.962s] -- Installing: /home/spkmak/vegabot_ws/install/vegabot_controller/share/vegabot_controller/launch/controller.launch.py
+[1.962s] -- Installing: /home/spkmak/vegabot_ws/install/vegabot_controller/share/vegabot_controller/config
+[1.962s] -- Installing: /home/spkmak/vegabot_ws/install/vegabot_controller/share/vegabot_controller/config/vegabot_controllers.yaml
+[1.963s] -- Installing: /home/spkmak/vegabot_ws/install/vegabot_controller/share/vegabot_controller/config/twist_mux_locks.yaml
+[1.963s] -- Installing: /home/spkmak/vegabot_ws/install/vegabot_controller/share/vegabot_controller/config/twist_mux_joy.yaml
+[1.963s] -- Installing: /home/spkmak/vegabot_ws/install/vegabot_controller/share/vegabot_controller/config/twist_mux_topics.yaml
+[1.963s] -- Installing: /home/spkmak/vegabot_ws/install/vegabot_controller/share/vegabot_controller/config/joy_teleop.yaml
+[1.964s] -- Installing: /home/spkmak/vegabot_ws/install/vegabot_controller/share/vegabot_controller/config/joy_config.yaml
+[1.964s] -- Installing: /home/spkmak/vegabot_ws/install/vegabot_controller/share/ament_index/resource_index/package_run_dependencies/vegabot_controller
+[1.964s] -- Installing: /home/spkmak/vegabot_ws/install/vegabot_controller/share/ament_index/resource_index/parent_prefix_path/vegabot_controller
+[1.965s] -- Installing: /home/spkmak/vegabot_ws/install/vegabot_controller/share/vegabot_controller/environment/ament_prefix_path.sh
+[1.965s] -- Installing: /home/spkmak/vegabot_ws/install/vegabot_controller/share/vegabot_controller/environment/ament_prefix_path.dsv
+[1.965s] -- Installing: /home/spkmak/vegabot_ws/install/vegabot_controller/share/vegabot_controller/environment/path.sh
+[1.966s] -- Installing: /home/spkmak/vegabot_ws/install/vegabot_controller/share/vegabot_controller/environment/path.dsv
+[1.966s] -- Installing: /home/spkmak/vegabot_ws/install/vegabot_controller/share/vegabot_controller/local_setup.bash
+[1.966s] -- Installing: /home/spkmak/vegabot_ws/install/vegabot_controller/share/vegabot_controller/local_setup.sh
+[1.966s] -- Installing: /home/spkmak/vegabot_ws/install/vegabot_controller/share/vegabot_controller/local_setup.zsh
+[1.966s] -- Installing: /home/spkmak/vegabot_ws/install/vegabot_controller/share/vegabot_controller/local_setup.dsv
+[1.967s] -- Installing: /home/spkmak/vegabot_ws/install/vegabot_controller/share/vegabot_controller/package.dsv
+[1.968s] -- Installing: /home/spkmak/vegabot_ws/install/vegabot_controller/share/ament_index/resource_index/packages/vegabot_controller
+[1.970s] -- Installing: /home/spkmak/vegabot_ws/install/vegabot_controller/share/vegabot_controller/cmake/vegabot_controllerConfig.cmake
+[1.971s] -- Installing: /home/spkmak/vegabot_ws/install/vegabot_controller/share/vegabot_controller/cmake/vegabot_controllerConfig-version.cmake
+[1.972s] -- Installing: /home/spkmak/vegabot_ws/install/vegabot_controller/share/vegabot_controller/package.xml
+[1.973s] Invoked command in '/home/spkmak/vegabot_ws/build/vegabot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/spkmak/ros2_ws/install/so_arm_100_bringup:/home/spkmak/ros2_ws/install/mechabot_scripts:/opt/ros/humble /home/spkmak/.local/bin/cmake --install /home/spkmak/vegabot_ws/build/vegabot_controller
