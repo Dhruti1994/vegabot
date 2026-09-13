@@ -1,7 +1,0 @@
-setup.py
-vegabot_navigation/__init__.py
-vegabot_navigation/waypoint_following.py
-vegabot_navigation.egg-info/PKG-INFO
-vegabot_navigation.egg-info/SOURCES.txt
-vegabot_navigation.egg-info/dependency_links.txt
-vegabot_navigation.egg-info/top_level.txt

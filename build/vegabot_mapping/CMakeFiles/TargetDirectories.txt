@@ -1,9 +1,0 @@
-/home/spkmak/vegabot_ws/build/vegabot_mapping/CMakeFiles/uninstall.dir
-/home/spkmak/vegabot_ws/build/vegabot_mapping/CMakeFiles/vegabot_mapping_uninstall.dir
-/home/spkmak/vegabot_ws/build/vegabot_mapping/CMakeFiles/test.dir
-/home/spkmak/vegabot_ws/build/vegabot_mapping/CMakeFiles/edit_cache.dir
-/home/spkmak/vegabot_ws/build/vegabot_mapping/CMakeFiles/rebuild_cache.dir
-/home/spkmak/vegabot_ws/build/vegabot_mapping/CMakeFiles/list_install_components.dir
-/home/spkmak/vegabot_ws/build/vegabot_mapping/CMakeFiles/install.dir
-/home/spkmak/vegabot_ws/build/vegabot_mapping/CMakeFiles/install/local.dir
-/home/spkmak/vegabot_ws/build/vegabot_mapping/CMakeFiles/install/strip.dir
